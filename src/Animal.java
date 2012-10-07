@@ -1,9 +1,8 @@
 
-public class Animal {
+abstract public class Animal {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		Animal[] animals = new Animal[]{
-			new Animal(),
 			new Cat(),
 			new Dog()
 		};
@@ -12,8 +11,7 @@ public class Animal {
 		}
 	}
 	
-	public void talk() {
-	}
+	public abstract void talk()
 }
 
 class Cat extends Animal {
