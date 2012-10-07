@@ -12,13 +12,13 @@ public class Assignment {
 }
 class Parent {
 	protected String forInternalUseOnly;
-}
-class LeakyChild extends Parent {
-	public String forInternalUseOnly() {
+	
+	protected String forInternalUseOnly() {
 		return forInternalUseOnly;
 	}
+
 	
-	public void forInternalUseOnly(String forInternalUseOnly) {
+	protected void forInternalUseOnly(String forInternalUseOnly) {
 		this.forInternalUseOnly = forInternalUseOnly;
 	}
 }
