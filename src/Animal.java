@@ -11,7 +11,7 @@ abstract public class Animal {
 		}
 	}
 	
-	public abstract void talk()
+	public abstract void talk();
 }
 
 class Cat extends Animal {
